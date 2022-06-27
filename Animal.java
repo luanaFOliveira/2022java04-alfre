@@ -8,7 +8,7 @@ public class Animal
     {
         this.alimento = alimento;
     }
-
+    
     public void Alimentar(String alimento)
     {
         if(this.alimento == alimento)
@@ -27,5 +27,8 @@ public class Animal
      *      Cachorro com a função Latir()
      *      Gato com a função Miar()
      *      etc.
+     * Obs: para passar o parametro "alimento" no constructor da classe mãe, no caso,
+     * "Animal", deve-se usar a keyword "Super()". Ex: Super("algum alimento");
+     * 
      */
 }
